@@ -10,7 +10,8 @@ environment:
 dependencies:
   gotrue: ^0.1.2
   postgrest: ^0.1.8
-  realtime_client: ^0.1.11
+  realtime_client:
+    git: https://github.com/Vinzent03/realtime-dart
   storage_client: ^0.0.6
 
 dev_dependencies:
