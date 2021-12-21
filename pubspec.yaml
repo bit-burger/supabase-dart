@@ -11,7 +11,9 @@ dependencies:
   gotrue: ^0.1.2
   postgrest: ^0.1.8
   realtime_client:
-    git: https://github.com/Vinzent03/realtime-dart
+    git: 
+      url: https://github.com/Vinzent03/realtime-dart
+      branch: fix/json
   storage_client: ^0.0.6
 
 dev_dependencies:
